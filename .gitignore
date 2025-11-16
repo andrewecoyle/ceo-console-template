@@ -1,0 +1,69 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.yaml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node.js (if applicable)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Project-specific exclusions
+# Add any project-specific files or directories below

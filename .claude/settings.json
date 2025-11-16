@@ -1,0 +1,26 @@
+{
+  "description": "CEO_Me project settings - Agent-based project management system",
+  "project": {
+    "name": "CEO_Me",
+    "type": "experimental-agent-system"
+  },
+  "conventions": {
+    "agentRoles": [
+      "Project Manager",
+      "Head of Product Development",
+      "Code Reviewer"
+    ],
+    "checkInSchedules": {
+      "daily_standup": "9:00 AM",
+      "midday_update": "1:00 PM",
+      "eod_summary": "5:00 PM",
+      "weekly_planning": "Monday 10:00 AM",
+      "weekly_retrospective": "Friday 4:00 PM"
+    }
+  },
+  "notes": [
+    "This project simulates a hierarchical organization where AI agents act as department heads",
+    "Use slash commands to trigger agent check-ins",
+    "Agents should escalate decisions outside their authority to the CEO (user)"
+  ]
+}
