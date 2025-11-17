@@ -6,7 +6,7 @@ A reusable template for setting up an autonomous AI executive team in any projec
 
 Drop an entire AI executive team into any project:
 - 3 Executives (Product, Growth, Finance)
-- 7 Specialized agents (4 researchers + 3 reviewers)
+- 8 Specialized agents (4 researchers + 4 reviewers)
 - Autonomous `/ship-feature` workflow
 - Learning system that improves over time
 
@@ -43,7 +43,8 @@ your-project/
 │       ├── git-history-analyzer.md
 │       ├── andrew-style-reviewer.md
 │       ├── security-sentinel.md
-│       └── performance-oracle.md
+│       ├── performance-oracle.md
+│       └── ux-reviewer.md           # UX/accessibility review
 ├── executive-team/
 │   ├── product-lead/
 │   │   ├── knowledge-base.md     # Empty, will learn
@@ -88,7 +89,7 @@ Lightweight development team with learning capabilities for rapid iteration.
 - Researches best practices (4 agents in parallel)
 - Creates implementation plan
 - Builds the feature
-- Reviews for security, performance, style (3 agents in parallel)
+- Reviews for security, performance, style, UX/accessibility (4 agents in parallel)
 - Auto-fixes issues
 - Runs tests
 - Ships

@@ -149,6 +149,8 @@ Take a feature request from the CEO and autonomously ship it through the full li
      - Reads: `shared-memory/ceo-preferences.md` + any dev-specific prefs
    - `@security-sentinel` - "Are there security vulnerabilities? (XSS, injection, OWASP top 10)"
    - `@performance-oracle` - "Are there performance issues or inefficiencies?"
+   - `@ux-reviewer` - "Does this meet UX and accessibility standards?"
+     - Checks: WCAG 2.1 AA compliance, mobile UX patterns, design consistency
 
 2. **Synthesize feedback:**
    - **Critical issues**: [Must fix]
@@ -161,7 +163,7 @@ Take a feature request from the CEO and autonomously ship it through the full li
    - Repeat until clean
 
 4. **Present review summary to CEO** (brief):
-   - "Code reviewed by security, performance, and style reviewers"
+   - "Code reviewed by style, security, performance, and UX reviewers"
    - "[X] critical issues found and fixed"
    - "[Y] suggestions applied"
 
